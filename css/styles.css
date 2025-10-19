@@ -224,6 +224,7 @@ img {
 }
 
 /* #endregion Specifically*/
+/* #region Effortless */
 .effortless {
   padding: 70px 0 50px;
 }
@@ -277,3 +278,26 @@ img {
 
 .effortless-text {
 }
+
+/* #endregion */
+/* #region Customer support */
+.customer {
+}
+.customer-title {
+}
+.customer-title-span {
+}
+.customer-text {
+}
+.customer-list {
+}
+.customer-item {
+}
+.customer-item-box {
+}
+.customer-item-icon {
+}
+.customer-item-text {
+}
+
+/* #endregion */
