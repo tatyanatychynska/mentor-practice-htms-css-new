@@ -203,6 +203,9 @@ img {
   border-radius: 19px;
   width: 54px;
   height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .green {
   background: #02897a;
@@ -215,6 +218,10 @@ img {
 }
 .red {
   background: #f03e3d;
+}
+
+.spec-wrap-icon {
+  fill: #ffffff;
 }
 .spec-item-title {
   font-weight: 600;
