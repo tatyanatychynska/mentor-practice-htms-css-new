@@ -28,6 +28,7 @@ ol {
 }
 a {
   text-decoration: none;
+  color: #22343d;
 }
 button {
   cursor: pointer;
@@ -306,13 +307,28 @@ img {
 
 /* #endregion */
 /* #region Customer support */
-.customer {
+.customer.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 84px;
 }
 .customer-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343d;
 }
 .customer-title-span {
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
 }
 .customer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
 }
 .customer-list {
 }
@@ -326,3 +342,79 @@ img {
 }
 
 /* #endregion */
+.footer.container {
+  padding: 100px 20px 40px 20px;
+}
+
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 83px;
+  padding-bottom: 16px;
+}
+.social-wrapper {
+  display: block;
+}
+.social-list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+  padding-top: 18px;
+}
+.social-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #edfffc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icon {
+  fill: transparent;
+  stroke: #02897a;
+}
+.footer-list {
+  min-width: 118px;
+}
+.footer-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #22343d;
+}
+.footer-list-item {
+  font-size: 16px;
+  line-height: 2.18;
+  color: #22343d;
+}
+
+.footer-list .legal {
+  min-width: 131px;
+}
+
+.button-wrapper {
+  max-width: 325px;
+}
+.button-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #22343d;
+  margin-bottom: 30px;
+}
+.btn-signup {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  background: #02897a;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+.footer-text-rights {
+  text-align: center;
+}
